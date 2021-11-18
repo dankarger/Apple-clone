@@ -3,7 +3,6 @@
 :root {
     --navbar-background: #3A3A3A;
     --white-background:#FBFBFD;
-
     --black-background:#36283D;
     --footer-background:#F5F5F7;
     --black-color:#1D1D20;
@@ -18,14 +17,12 @@ a {
     color:inherit;
     text-decoration: none;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-
 }
 
 ul {
     list-style: none;
     padding:0;
     margin:0;
-
 }
 
 h1 {
@@ -33,22 +30,15 @@ h1 {
 }
 
 h2{
-    --background-color: #fbfbfd;
     --text-color: #1d1d1f;
-    margin: 0;
-    padding: 0;
+    margin: 1rem;
+    padding: 1rem;
     text-align: center;
-    display: block;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    flex-shrink: 1;
     color: #1d1d1f;
-    font-size: 56px;
+    font-size: 5rem;
     line-height: 1.07143;
-    font-weight: 600;
-    letter-spacing: -.005em;
+    font-weight: 500;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     margin-top: 20px;
 }
@@ -58,4 +48,14 @@ p{
     font-weight: 100;
     line-height: 1.6;
     letter-spacing: 2px;
+}
+
+
+
+/*Flex*/
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

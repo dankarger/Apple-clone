@@ -23,6 +23,7 @@ nav .nav-item, .logo-div {
    padding:5px 10px;
     text-align: center;
 }
+
 .logo-div i{
     margin-top:8px
 }
@@ -38,6 +39,7 @@ nav .nav-item, .logo-div {
 .logo-div i:hover {
     opacity: 1;
 }
+
 nav .navbar-link p{
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     color:var(--white-color);
@@ -51,4 +53,5 @@ nav .navbar-link p{
 .navbar-link p:hover {
     opacity: 1;
 }
+
 
