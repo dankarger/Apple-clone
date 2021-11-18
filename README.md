@@ -1,0 +1,15 @@
+#Apple Clone Site
+## Part of "AppleSeed" FullStack BootCamp
+### Practicing HTML and CSS 
+
+In this exercise I tried to be more organize and working from the outer scope inward:
+  
+  steps of the work:
+- create the directories and files of the projects (general structure of the site)
+- adding readme.md file 
+- collecting the assets (images,fonts)
+- **starting with the homePage:** building the header(navbar)
+- building the sections- (empty in the beginning and adding the content later)
+- build the footer
+- building the sections content
+- extra: if there will be time left- working on another page of the site
