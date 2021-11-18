@@ -16,4 +16,4 @@ In this exercise I tried to be more organize and working from the outer scope in
 - extra: if there will be time left- working on another page of the site
 
 
-![alt text](assets/images/globalnav_apple_image__b5er5ngrzxqq_large.svg)
+![alt text](assets/images/apple-1073-898135.png)
