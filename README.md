@@ -8,6 +8,7 @@ In this exercise I tried to be more organize and working from the outer scope in
 - create the directories and files of the projects (general structure of the site)
 - adding readme.md file 
 - collecting the assets (images,fonts)
+- collecting colors from the site and making css variables
 - **starting with the homePage:** building the header(navbar)
 - building the sections- (empty in the beginning and adding the content later)
 - build the footer
