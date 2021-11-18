@@ -14,3 +14,6 @@ In this exercise I tried to be more organize and working from the outer scope in
 - build the footer
 - building the sections content
 - extra: if there will be time left- working on another page of the site
+
+
+![alt text](assets/images/globalnav_apple_image__b5er5ngrzxqq_large.svg)
