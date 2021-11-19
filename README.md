@@ -1,4 +1,4 @@
-#Apple Clone Site
+# Apple Clone Site
 ## Part of "AppleSeed" FullStack BootCamp
 ### Practicing HTML and CSS 
 ![alt text](assets/images/apple-1073-898135.png)
@@ -14,6 +14,7 @@ In this exercise I tried to be more organize and working from the outer scope in
 - building the sections- (empty in the beginning and adding the content later)
 - build the footer
 - building the sections content
+- after all the elements are in place, fine-tune the positions and size of all elements
 - extra: if there will be time left- working on another page of the site
 
 
