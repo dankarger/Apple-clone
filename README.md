@@ -5,7 +5,7 @@
 
 In this exercise I tried to be more organize and working from the outer scope inward:
   
-  steps of the work:
+  steps of the project:
 - create the directories and files of the projects (general structure of the site)
 - adding readme.md file 
 - collecting the assets (images,fonts)
