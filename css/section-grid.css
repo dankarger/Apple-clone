@@ -23,7 +23,7 @@
 }
 
 .box {
-
+    position: relative;
     width: 50%;
     margin: 0.7rem 0.5rem;
     overflow: hidden;
@@ -120,17 +120,20 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    top: 250px;
+    top:15rem;
+    /*bottom: 0;*/
+    left:1%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    z-index: 100;
 
 }
 
 .dickinson-div {
-    width: 60%;
-    height: 50%;
+    width: 70%;
+    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
