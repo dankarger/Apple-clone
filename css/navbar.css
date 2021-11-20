@@ -1,7 +1,5 @@
 nav {
-    /*background:var(--navbar-background);*/
     background: rgba(58,58,58,0.99);
-    /*opacity: 0.99;*/
     width:100%;
     height:42px;
     display:flex;
@@ -11,8 +9,6 @@ nav {
     top:0 ;
     left:0;
     z-index: 1000;
-
-
 }
 
 .hamburger {
@@ -36,7 +32,6 @@ nav .nav-item {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .logo-div {
@@ -69,14 +64,12 @@ nav .navbar-link p{
     transition: 0.5s ease-in-out;
     letter-spacing: 1px;
 }
-
 .navbar-link p:hover {
     opacity: 1;
 }
 .bag {
     margin-top:0.5rem;
 }
-
 .search-logo-div, .bag-logo-div {
     min-width:20px;
     height:100%;
@@ -85,7 +78,6 @@ nav .navbar-link p{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .search-logo-div i {

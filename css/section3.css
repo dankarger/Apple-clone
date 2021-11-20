@@ -7,8 +7,6 @@
     height: 100%;
     background: var(--white-background);
 }
-
-
 #section3:hover {
     cursor: pointer;
 }
@@ -16,7 +14,6 @@
 #section3 a {
     display: block;
 }
-
 
 #section3 .section3-content {
     display: block;
