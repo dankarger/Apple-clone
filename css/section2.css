@@ -4,7 +4,7 @@
     height: 100%;
     width:100%;
     padding: 0.8rem;
-    background: var(--white-color);
+    background: #FBFBFD;
     display: block;
     overflow: hidden;
 }
@@ -45,15 +45,16 @@
 }
 
 .section2-img-div {
+    display: block;
     width: 100%;
-    height: 80%;
-    transform: translateX(-20%);
+    height: 100%;
+    /*transform: translateX(-50px);*/
 }
 
 .section2-img-div img {
     height: 600px;
-    width: 130%;
-    object-fit: scale-down;
+    width: 100%;
+    object-fit: cover;
     display: block;
 }
 
