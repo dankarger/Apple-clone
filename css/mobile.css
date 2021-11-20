@@ -48,6 +48,9 @@ nav .nav-item p{
 }
 
 /* Section 1 */
+#section1 {
+    padding-top: 0;
+}
 
 #section1 .red-div {
     padding:1rem;
@@ -156,7 +159,7 @@ nav .nav-item p{
 }
 
 .box-img-div img {
-    height: 500px;
+    height: 100%;
     transform: scale(1);
 }
 .card-logo p img{
@@ -175,16 +178,20 @@ nav .nav-item p{
 /* Footer */
 
 #footer {
-    min-width: 0;
     max-width:100vw;
-
     height:100%;
     margin:0;
     overflow: hidden;
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: center;
+    align-items: start;
     flex-direction: column;
+    padding:1rem;
+
+}
+#footer .footer-content {
+    max-width: 100vw;
+    min-width:90vw
 
 }
 .space {
@@ -217,10 +224,17 @@ nav .nav-item p{
     margin:1rem 0 ;
     border-bottom:1px solid grey;
     padding-bottom:1rem;
+    padding-right:1rem;
     color:grey;
     width:100%;
     height: 100%;
     display: block;
+    position: relative;
+}
+.footer-down-container li strong:after {
+    content: '+';
+    position: absolute;
+    right:0;
 }
 .footer-down-container li strong:hover {
     color:var(--black-color2);
