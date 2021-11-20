@@ -61,17 +61,24 @@ h4 {
     margin: 1px;
 
 }
+
 p{
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    font-weight: 100;
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 1px;
      line-height: 1.6;
-    font-size: 1rem;
-    letter-spacing: 2px;
     margin: 0;
 }
 
 hr {
     color:#949498;
+}
+
+.space {
+    height:10px;
+    width:100%;
+
 }
 
 /*Flex*/

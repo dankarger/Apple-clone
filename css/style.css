@@ -1,15 +1,27 @@
 /*body*/
-html.body {
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+html,body {
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     box-sizing: border-box;
     padding-top: 0;
     margin-top: 0;
     line-height: 1.4;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     scroll-behavior: smooth;
+    font-size: 12px;
 }
-
+html {
+    font-size: 62.5%
+}
+body {
+    font-size: 1.6rem;
+}
 /* Section1 */
 #section1 {
     width: 100%;
@@ -20,7 +32,7 @@ html.body {
 
 
 #section1 .red-div {
-    height: 70px;
+    height: 50px;
     width: 100%;
     background: var(--red-color2);
     display: flex;
@@ -31,7 +43,9 @@ html.body {
 #section1 .red-div .shop-p {
     color: var(--white-color);
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 1px;
 }
 
 #section1 .red-div .shop-p span:hover {
@@ -50,7 +64,6 @@ html.body {
     cursor: pointer;
 }
 
-
 .section1-upper-div {
     display: flex;
     flex-direction: column;
@@ -64,7 +77,6 @@ html.body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 #section1 .red-apple img {
@@ -117,12 +129,17 @@ html.body {
 
 /* Section2 */
 #section2 {
+    height: 100%;
+    width:100%;
     padding: 0.8rem;
     background: var(--white-color);
     display: block;
     overflow: hidden;
 }
-
+.section2-content {
+    min-height: 100%;
+    width:100%;
+}
 .section2-content .section2-header-div {
     background: var(--white-background);
     display: flex;
@@ -130,13 +147,14 @@ html.body {
     justify-content: center;
     align-items: center;
     z-index: 50;
-    position: relative;
+    position: absolute;
+    left:40%;
     margin-top: 1rem;
 }
 
 .section2-header-div h2 {
     color: var(--black-color2);
-    font-size: 5em;
+    font-size: 3em;
     letter-spacing: -1px;
 }
 
@@ -156,14 +174,14 @@ html.body {
 
 .section2-img-div {
     width: 100%;
-    height: 100%;
-    transform: translateY(-150px);
+     height: 80%;
+    transform: translateX(-20%);
 }
 
 .section2-img-div img {
-    height: 100%;
-    object-fit: cover;
-    transform: scale(1.5);
+    height: 600px;
+    width: 130%;
+    object-fit: scale-down;
     display: block;
 }
 
@@ -189,10 +207,10 @@ html.body {
 
 #section3 {
     overflow: hidden;
-    margin-top: 1rem;
+    /*margin-top: 1rem;*/
     width: 100%;
     height: 100%;
-    backgroung: var(--white-background);
+    background: var(--white-background);
 }
 
 #section3:hover {
@@ -203,11 +221,11 @@ html.body {
     display: block;
 }
 
-.section3-fake-div {
-    height: 100%;
-    width: 100%;
+/*.section3-fake-div {*/
+/*    height: 100%;*/
+/*    width: 100%;*/
 
-}
+/*}*/
 
 #section3 .section3-content {
     display: block;
@@ -278,7 +296,7 @@ html.body {
     z-index: 100;
     width: 100%;
     height: 30%;
-    /*border: red 1px solid;*/
+    border: red 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,16 +323,16 @@ html.body {
 }
 
 .box-img-div img {
-
+    object-position: center center;
     height: 800px;
-    transform: scale(1.2);
+    /*transform: scale(1.2);*/
 }
 
 .box .box-header p {
     color: var(--black-color2);
     font-size: 1.9rem;
     font-weight: 400;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 
@@ -372,8 +390,6 @@ html.body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-
 }
 
 .dickinson-div img {
@@ -390,6 +406,7 @@ html.body {
     margin-top: 3rem;
     font-size: 1.7rem;
     font-weight: 200;
+
 }
 
 /*icons*/
