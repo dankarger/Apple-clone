@@ -15,6 +15,7 @@ In this exercise I tried to be more organize and working from the outer scope in
 - build the footer
 - building the sections content
 - after all the elements are in place, fine-tune the positions and size of all elements
+- try to do responsive
 - extra: if there will be time left- working on another page of the site
 
 
