@@ -2,14 +2,14 @@
 /* Navbar */
 nav {
     /*background:var(--navbar-background);*/
-    background: rgba(58,58,58,0.95);
+    background: rgba(58,58,58,0.98);
     /*opacity: 0.99;*/
     width:100%;
     height:50px;
     display:flex;
     justify-content:center;
     align-items:center;
-    position: sticky;
+    position: fixed;
     top:0 ;
     left:0;
     z-index: 100;
@@ -49,7 +49,7 @@ nav .nav-item p{
 
 /* Section 1 */
 #section1 {
-    padding-top: 0;
+    padding-top: 50px;
 }
 
 #section1 .red-div {
@@ -236,18 +236,15 @@ nav .nav-item p{
     position: absolute;
     right:0;
 }
-.footer-down-container li strong:hover {
-    color:var(--black-color2);
-}
-#footer .footer-down-container li {
 
-}
 #footer .footer-column strong {
-    font-weight: 200;
+    font-weight: 400;
 
 }
 .footer-down-container li strong:hover {
-    color:var(--black-color2)
+    color:black;
+    cursor: pointer;
+    font-weight: 800;
 }
 .footer-down-container .footer-column ul li a{
     display: none;
@@ -263,7 +260,7 @@ nav .nav-item p{
     height: 100%;
 }
 .footer-legal > p, .legal-ul li p a,.legal-ul li p{
-    font-size: 0.7rem;
+    font-size: 1rem;
     padding:0;
 }
 .legal-ul li {
