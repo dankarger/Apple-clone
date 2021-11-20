@@ -83,6 +83,10 @@ nav .nav-item p{
 }
 
 /* Section 2 */
+#section2 {
+    padding:0;
+    margin:0;
+}
 
 .section2-content {
     position: relative;
@@ -131,17 +135,18 @@ nav .nav-item p{
 }
 #section3 .tablet-img {
     display: block;
+
 }
 #section3 .section3-content {
-
     background: url("/assets/images/hero_iphone_13__f194u1rdooeq_small_2x.jpg") no-repeat center center;
-    background-size: 100% 100%;
-    width: 100vw;
-    height: 65vh;
+    background-size: 1000px 100vh;
+    width: auto;
+    height: 600px;
+
 }
 
 .section3-header-div {
-    padding-top:15rem;
+    padding-top:28rem;
 
 }
 .section3-header-div h2 {
@@ -165,11 +170,15 @@ nav .nav-item p{
 }
 
 .box-img-div img {
-    height: 100%;
-    transform: scale(1);
+    /*height: 100%;*/
+    /*transform: scale(1);*/
+
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
 }
 .card-logo p img{
-
     height: 50px;
     width:100%;
     padding-bottom:2rem;
@@ -177,9 +186,15 @@ nav .nav-item p{
 }
 .dickinson-div {
     width:100%;
-    height: 30%;
+    height: 200px;
 }
-
+.dickinson-div img {
+    height:300px;
+    width:100%;
+    width: 300px;
+    height: 200px;
+    object-fit: scale-down;
+}
 
 /* Footer */
 
