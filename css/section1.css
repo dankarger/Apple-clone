@@ -6,7 +6,7 @@
 }
 
 #section1 .red-div {
-    height: 50px;
+    height: 42px;
     width: 100%;
     background: var(--red-color2);
     display: flex;

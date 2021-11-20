@@ -154,7 +154,9 @@
     /*margin-top: 3rem;*/
     font-size: 1.7rem;
     font-weight: 200;
-
+}
+.dickinson-div a span:hover {
+    text-decoration: underline;
 }
 
 /*icons*/

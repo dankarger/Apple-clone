@@ -71,8 +71,10 @@
     margin-right: 2rem;
 }
 #footer .footer-column a{
+    opacity: 0.8;
+    color:#424245;
     font-size: 1.1rem;
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: 1px;
     line-height: 1.4;
 
@@ -90,6 +92,12 @@
     justify-content: left;
     margin-top:3rem;
     padding-bottom: 1rem;
+}
+.footer-down .column li a{
+    font-weight: 400;
+}
+.footer-down .column li a:hover {
+    text-decoration: underline;
 }
 .footer-bottom2-up {
     width:100%;
