@@ -161,6 +161,12 @@ nav .nav-item p{
 }
 
 /* Section-grid */
+#section--grid .not-tablet-img {
+    display: none;
+}
+#section--grid .tablet-img {
+    display: block;
+}
 
 .section-grid-row {
     flex-direction: column;
