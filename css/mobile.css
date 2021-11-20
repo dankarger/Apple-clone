@@ -255,21 +255,32 @@ nav .nav-item p{
 .footer-legal {
     width: 100%;
     flex-direction: column;
-    justify-content: left;
+    justify-content: space-evenly;
     align-items: start;
 }
 .footer-bottom2-div {
     width: 100%;
     height: 100%;
 }
-.footer-legal > p, .legal-ul li p a{
-    font-size: 1rem;
+.footer-legal > p, .legal-ul li p a,.legal-ul li p{
+    font-size: 0.7rem;
+    padding:0;
 }
 .legal-ul li {
     width: 100%;
+    min-width:90px;
+    padding:0;
+    margin:0;
+
+}
+#footer .legal-ul {
+
 }
 #footer ul  {
     width:100%;
     padding:0;
     margin:0;
+}
+#footer .li-filler {
+    display: none;
 }
