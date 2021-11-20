@@ -126,6 +126,12 @@ nav .nav-item p{
 
 /* Section 3 */
 
+#section3 .not-tablet-img {
+    display: none;
+}
+#section3 .tablet-img {
+    display: block;
+}
 #section3 .section3-content {
 
     background: url("/assets/images/hero_iphone_13__f194u1rdooeq_small_2x.jpg") no-repeat center center;

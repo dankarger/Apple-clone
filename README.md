@@ -18,4 +18,5 @@ In this exercise I tried to be more organize and working from the outer scope in
 - try to do responsive
 - extra: if there will be time left- working on another page of the site
 
-
+aditional icons used from:
+https://fontawesome.com/
