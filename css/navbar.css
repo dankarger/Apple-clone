@@ -25,6 +25,7 @@ nav .navbar-ul {
 
 nav .nav-item {
    min-width:40px;
+   height:100%;
    padding:0 16px;
     text-align: center;
     display: flex;
@@ -67,5 +68,7 @@ nav .navbar-link p{
 .navbar-link p:hover {
     opacity: 1;
 }
-
+.bag {
+    margin-top:0.5rem;
+}
 
