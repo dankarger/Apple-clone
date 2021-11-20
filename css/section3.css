@@ -1,0 +1,53 @@
+/* Section 3 */
+
+#section3 {
+    overflow: hidden;
+    /*margin-top: 1rem;*/
+    width: 100%;
+    height: 100%;
+    background: var(--white-background);
+}
+
+#section3:hover {
+    cursor: pointer;
+}
+
+#section3 a {
+    display: block;
+}
+
+/*.section3-fake-div {*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+
+/*}*/
+
+#section3 .section3-content {
+    display: block;
+    background: url("/assets/images/hero_iphone_13__f194u1rdooeq_largetall.jpg") no-repeat center center;
+    background-size: 150vw 100vh;
+    width: 100vw;
+    height: 90vh;
+
+}
+
+.section3-header-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3-header-div h2 {
+    color: var(--white-color);
+    text-align: center;
+}
+
+.section3-header-div h3 {
+    color: #FEC2EB;
+    text-align: center;
+    font-size: 2.7rem;
+
+    margin-bottom: 2rem;
+}
+
