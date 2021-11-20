@@ -159,6 +159,9 @@
     text-decoration: underline;
 }
 
+.card-header {
+
+}
 /*icons*/
 .icon-watch-now {
     width: 100%;
@@ -174,7 +177,9 @@
 .box .card {
 
 }
-.card {
-    height: 100%;
-    width:100%
+.card-logo {
+    margin-top:1rem;
+    height: 12%;
+    width:12%;
+    margin-bottom:4rem;
 }

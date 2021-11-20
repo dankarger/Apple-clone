@@ -144,6 +144,6 @@
     padding-right: 1rem;
     font-weight: 400;
 }
-.legal-ul li p a:hover{
+.legal-ul li p a:hover, .footer-legal a:hover {
     text-decoration: underline;
 }
