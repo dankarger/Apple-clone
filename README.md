@@ -1,6 +1,7 @@
 # Apple Clone Site
 ## Part of "AppleSeed" FullStack BootCamp
 ### Practicing HTML and CSS 
+https://clone-123.netlify.app/
 ![alt text](assets/images/apple-1073-898135.png)
 
 In this exercise I tried to be more organize and working from the outer scope inward:

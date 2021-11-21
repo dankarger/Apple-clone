@@ -136,6 +136,10 @@ nav .nav-item p{
 }
 #section3 .tablet-img {
     display: block;
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+
 
 }
 #section3 .section3-content {
@@ -168,6 +172,10 @@ nav .nav-item p{
 }
 #section--grid .tablet-img {
     display: block;
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+
 }
 
 .section-grid-row {
